@@ -1,0 +1,16 @@
+h1(style="font-size: 24px; color: #333;") Book creation
+
+form(action="/create", method="post", style="margin-top: 20px;")
+
+    label(for="message", style="display: block; margin-bottom: 5px;") message:
+    input(type="text", id="message", name="message", required, style="width: 100%; padding: 8px; margin-bottom: 10px; box-sizing: border-box;")
+
+    br
+
+    label(for="Userid", style="display: block; margin-bottom: 5px;") User id:
+    input(type="text", id="Userid", name="Userid", required, style="width: 100%; padding: 8px; margin-bottom: 10px; box-sizing: border-box;")
+
+    br
+
+    input(type="submit", id="SubmitButton" value="Submit", style="background-color: #28a745; color: #fff; padding: 10px; border: none; cursor: pointer;")
+
