@@ -27,6 +27,27 @@ function handlerJSON(req, res) {
             "method": "GET",
             "description": "displays info about endpoints",
           },
+          //hw7
+          {
+            "Path": "/set_cookie/:title/:value",
+            "method": "GET",
+            "description": "sets cookie example (http://localhost:1000/set_cookie/cookie/value)",
+          },
+          {
+            "Path": "/get_cookie/:title/",
+            "method": "GET",
+            "description": "gets cookie example (http://localhost:1000/get_cookie/cookie/)",
+          },
+          {
+            "Path": "/set_header/:header_name/:header_value",
+            "method": "GET",
+            "description": "sets header example (http://localhost:1000/set_header/header/val)",
+           },
+          {
+            "Path": "/get_header/:header_name/",
+            "method": "GET",
+            "description": "gets header example (http://localhost:1000/get_header/header/) !!! header must be set in Postman headers like header - val !!!",
+          },
         
       ]
     };
