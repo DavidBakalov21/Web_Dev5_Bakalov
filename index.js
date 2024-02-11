@@ -28,9 +28,9 @@ app.post("/create", handlerCreate);
 app.get("/GET/:id", handlerGETId);
 
 //hw7
-app.get('/set_cookie/:title/:value', handlerSetCookies);
+app.get('/set_cookie', handlerSetCookies);
 app.get('/get_cookie/:title/', handlerGetCookies);
-app.get('/set_header/:header_name/:header_value', handlerSetHeader);
+app.get('/set_header', handlerSetHeader);
 app.get('/get_header/:header_name/', handlerGetHeader);
 app.get("/*", handlerNotFound);
 

@@ -29,19 +29,19 @@ function handlerJSON(req, res) {
           },
           //hw7
           {
-            "Path": "/set_cookie/:title/:value",
+            "Path": "/set_cookie",
             "method": "GET",
-            "description": "sets cookie example (http://localhost:1000/set_cookie/cookie/value)",
+            "description": "sets cookie example (http://localhost:1000/set_cookie?cookie=favorite&val=value)",
           },
           {
             "Path": "/get_cookie/:title/",
             "method": "GET",
-            "description": "gets cookie example (http://localhost:1000/get_cookie/cookie/)",
+            "description": "gets cookie example (http://localhost:1000/get_cookie/favorite/)",
           },
           {
-            "Path": "/set_header/:header_name/:header_value",
+            "Path": "/set_header",
             "method": "GET",
-            "description": "sets header example (http://localhost:1000/set_header/header/val)",
+            "description": "sets header example (http://localhost:1000/set_header?header=favorite&value=valueH)",
            },
           {
             "Path": "/get_header/:header_name/",
